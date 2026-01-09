@@ -1,0 +1,173 @@
+footer{
+    text-align: center;
+    background-color: #FAE3C6;
+    font: bold;
+}
+
+nav{
+    background-color: #F564A9;
+    font-style: inherit;
+    margin-bottom: 2.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+
+}
+
+ul{
+    text-align: right;
+}
+
+header{
+    background-color: #533B4D;
+    color: aliceblue;
+    text-align: center;
+}
+
+body{
+    margin: 0;
+    background-color: #FFE1E0;
+    
+    
+}
+
+section{
+    background-color: #9B7EBD;
+    display: flex ;
+    margin: auto;
+    height: 35vh;
+    border-radius: 30px;
+    width: 80vw;
+    box-shadow: 0 4px 16px #000000 (0,0,0,0.5);
+}
+
+img{
+    width: 200px;
+    height: 250px;
+    border-radius: 50%;
+    margin: auto;
+
+}
+
+h3 {
+    text-align: center;
+    font-weight: bold;
+}
+
+h1{
+    text-align: center;
+    background-color: #B6AE9F;
+}
+
+#name{
+  text-align: center;
+}
+
+nav {
+  background-color: #f85fa0; 
+  padding: 10px;
+}
+
+nav ul {          
+  display: flex;             
+  justify-content: flex-end; 
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin-left: 250px;         
+  font-weight: bold;
+}
+
+nav a {
+  text-decoration: none;     
+  color: black;              
+}
+
+nav a:hover {
+  color: white;             
+}
+
+aside{
+   background-color: #FFE1AF;
+    display: flex ;
+    margin: 30px;
+    
+    
+
+}
+
+#theme-toggle{
+  background-color: #B6AE9F;
+}
+
+body.dark-mode {
+  background-color: #222;
+  color: rgb(252, 252, 252);
+}
+
+body.light-mode {
+  background-color: #fce4ec;
+  color: black;
+}
+
+
+form {
+  width: 300px;
+  margin: 50px auto;
+  background-color: #f6b6d3;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+
+h5 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #333;
+  font-size: 28px;
+  letter-spacing: 1px;
+}
+
+.skill {
+  margin: 15px auto;
+  width: 80%;
+  font-weight: 600;
+  color: #444;
+}
+
+.skill-name {
+  display: inline-block;
+  width: 150px;
+  font-size: large;
+}
+
+.skill-percent {
+  float: right;
+}
+
+.skill-bar {
+  width: 100%;
+  height: 15px;
+  background: #e0e0e0;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-top: 5px;
+}
+
+
+.skill-fill {
+  height: 100%;
+  width: 0%;
+  border-radius: 10px;
+  transition: width 1.5s ease-out;
+}
+
+
+.skill:nth-of-type(1) .skill-fill { background: linear-gradient(90deg, #4facfe, #00f2fe); } 
+.skill:nth-of-type(2) .skill-fill { background: linear-gradient(90deg, #ff9966, #ff5e62); } 
+.skill:nth-of-type(3) .skill-fill { background: linear-gradient(90deg, #f7971e, #ffd200); } 
+.skill:nth-of-type(4) .skill-fill { background: linear-gradient(90deg, #00c6ff, #0072ff); } 
